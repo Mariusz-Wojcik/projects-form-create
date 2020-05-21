@@ -8,4 +8,22 @@ html {
 
 body{
     background-color: #313655;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-height: 100vh;*/
+    
+}
+
+.form{
+
+}
+
+.form__item{
+width: 60%;
+}
+
+.main-header{
+    width: 500px;
 }
