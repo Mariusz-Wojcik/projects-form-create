@@ -23,13 +23,7 @@
                 </p>
                 <p>
 					<label for="description"> Description:</label>
-					<input
-						class="form__item"
-						type="text"
-						placeholder="Please input project's description"
-						id="description"
-						name="description"
-					/>
+					<textarea class="form__item" id="description" name="description"></textarea>						
                 </p>
 				<p>
 					<label for="owner"> Owner:</label>
@@ -141,17 +135,11 @@
                 </p>
                 <p>
 					<label for="remarks">Remarks:</label>
-					<input
-						class="form__item"
-						type="text"
-						placeholder="Please input additional project's remarks"
-						id="remarks"
-						name="remarks"
-					/>
+					<textarea class="form__item" id="remarks" name="remarks"></textarea>
                 </p>
                 <p>
 					<label for="status"> Project status:</label>
-                    <select id="status">
+                    <select class="form__item" id="status">
                         <option value="status-1"> Open</option>
                         <option value="status-2"> In progress</option>
                         <option value="status-3"> Finished</option>
