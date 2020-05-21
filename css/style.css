@@ -21,6 +21,7 @@ body{
 }
 
 .form__item{
+    display: block;
 width: 60%;
 }
 
