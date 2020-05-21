@@ -50,19 +50,15 @@
 						id="teamLeader"
 						name="teamLeader"
 					/>
-                </p>               
-                <fieldset>
-                    <legend>Goal:</legend>
-                    <p>
-                        <label><input name="goal" type="radio" value="savings"> Savings</label>
-                    </p>
-                    <p>
-                        <label><input name="goal" type="radio" value="quality"> Quality</label>
-                    </p>
-                    <p>
-                        <label><input name="goal" type="radio" value="safety"> Safety</label>
-                    </p>
-                </fieldset>
+                </p>    
+                <p>
+					<label for="goal"> Project goal:</label>
+                    <select id="goal">
+                        <option value="goal-1"> Savings</option>
+                        <option value="goal-2"> Quality</option>
+                        <option value="goal-3"> Safety</option>
+                    </select>
+                </p> 
                 <p>
 					<label for="projectStart">Project start date:</label>
 					<input
@@ -153,21 +149,15 @@
 						name="remarks"
 					/>
                 </p>
-                <fieldset>
-                    <legend>Status:</legend>
-                    <p>
-                        <label><input name="status" type="radio" value="open"> Open</label>
-                    </p>
-                    <p>
-                        <label><input name="status" type="radio" value="inProgress"> In progress</label>
-                    </p>
-                    <p>
-                        <label><input name="status" type="radio" value="finished"> Finished</label>
-                    </p>
-                    <p>
-                        <label><input name="status" type="radio" value="closed"> Closed</label>
-                    </p>
-                </fieldset>
+                <p>
+					<label for="status"> Project status:</label>
+                    <select id="status">
+                        <option value="status-1"> Open</option>
+                        <option value="status-2"> In progress</option>
+                        <option value="status-3"> Finished</option>
+                        <option value="status-3"> Closed</option>
+                    </select>
+                </p> 
                 <p>
 					<label for="status">Project status:</label>
 					<input
