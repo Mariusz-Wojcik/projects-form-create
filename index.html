@@ -12,7 +12,7 @@
 			<h1 class="main-header">Create a record</h1>
 			<form class="form">
 				<p>
-					<label for="subject">Subject:</label>
+					<label for="subject"> Subject:</label>
 					<input
 						class="form__item"
 						type="text"
@@ -20,9 +20,19 @@
 						id="subject"
 						name="subject"
 					/>
-				</p>
+                </p>
+                <p>
+					<label for="description"> Description:</label>
+					<input
+						class="form__item"
+						type="text"
+						placeholder="Please input project's description"
+						id="description"
+						name="description"
+					/>
+                </p>
 				<p>
-					<label for="owner">Owner:</label>
+					<label for="owner"> Owner:</label>
 					<input
 						class="form__item"
 						type="text"
@@ -30,7 +40,144 @@
 						id="owner"
 						name="owner"
 					/>
-				</p>
+                </p>
+                <p>
+					<label for="team-leader"> Team Leader:</label>
+					<input
+						class="form__item"
+						type="text"
+						placeholder="Please input name of project's Team Leader"
+						id="teamLeader"
+						name="teamLeader"
+					/>
+                </p>               
+                <fieldset>
+                    <legend>Goal:</legend>
+                    <p>
+                        <label><input name="goal" type="radio" value="savings"> Savings</label>
+                    </p>
+                    <p>
+                        <label><input name="goal" type="radio" value="quality"> Quality</label>
+                    </p>
+                    <p>
+                        <label><input name="goal" type="radio" value="safety"> Safety</label>
+                    </p>
+                </fieldset>
+                <p>
+					<label for="projectStart">Project start date:</label>
+					<input
+						class="form__item"
+						type="date"
+						placeholder="Please input starting date of project eg. 2020-01-10"
+						id="projectStart"
+						name="projectStart"
+					/>
+                </p>
+                <p>
+					<label for="forecastProjectCost">Forecast project cost:</label>
+					<input
+						class="form__item"
+						type="number"
+						placeholder="Please input forecast project's cost in EUR"
+						id="forecastProjectCost"
+						name="forecastProjectCost"
+					/>
+                </p>
+                <p>
+					<label for="oneTimeSavings">One time savings:</label>
+					<input
+						class="form__item"
+						type="number"
+						placeholder="Please input one time savings value in EUR"
+						id="oneTimeSavings"
+						name="oneTimeSavings"
+					/>
+                </p>
+                <p>
+					<label for="monthlySavings">Monthly savings:</label>
+					<input
+						class="form__item"
+						type="number"
+						placeholder="Please input monthly savings value in EUR"
+						id="monthlySavings"
+						name="monthlySavings"
+					/>
+                </p>
+                <p>
+					<label for="yearlySavings">Yearly savings:</label>
+					<input
+						class="form__item"
+						type="number"
+						placeholder="Please input yearly savings value in EUR"
+						id="yearlySavings"
+						name="yearlySavings"
+					/>
+                </p>
+                <p>
+					<label for="finalProjectCost">Final project cost:</label>
+					<input
+						class="form__item"
+						type="number"
+						placeholder="Please input final project's cost in EUR"
+						id="finalProjectCost"
+						name="finalProjectCost"
+					/>
+                </p>
+                <p>
+					<label for="projectFinished">Project finished date:</label>
+					<input
+						class="form__item"
+						type="date"
+						placeholder="Please input finish date of project eg. 2020-01-10"
+						id="projectFinished"
+						name="projectFinished"
+					/>
+                </p>
+                <p>
+					<label for="savingsStartDate">Savings beginning date:</label>
+					<input
+						class="form__item"
+						type="date"
+						placeholder="Please input beginning date of savings eg. 2020-01"
+						id="savingsStartDate"
+						name="savingsStartDate"
+					/>
+                </p>
+                <p>
+					<label for="remarks">Remarks:</label>
+					<input
+						class="form__item"
+						type="text"
+						placeholder="Please input additional project's remarks"
+						id="remarks"
+						name="remarks"
+					/>
+                </p>
+                <fieldset>
+                    <legend>Status:</legend>
+                    <p>
+                        <label><input name="status" type="radio" value="open"> Open</label>
+                    </p>
+                    <p>
+                        <label><input name="status" type="radio" value="inProgress"> In progress</label>
+                    </p>
+                    <p>
+                        <label><input name="status" type="radio" value="finished"> Finished</label>
+                    </p>
+                    <p>
+                        <label><input name="status" type="radio" value="closed"> Closed</label>
+                    </p>
+                </fieldset>
+                <p>
+					<label for="status">Project status:</label>
+					<input
+						class="form__item"
+						type="text"
+						placeholder="Please input additional project's remarks"
+						id="status"
+						name="status"
+					/>
+                </p>
 			</form>
 		</main>
 	</body>
